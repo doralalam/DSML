@@ -1,0 +1,3 @@
+Hello World
+I am from data.txt file
+Happy learning!
