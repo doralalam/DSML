@@ -1,0 +1,10 @@
+The quick brown fox jumps over the lazy dog.
+Sample test data for input validation and boundary testing.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+john.doe@example.com
+Password123!
+Special characters: !@#$%^&*()_+-=[]{}|;:'"<>?,.
+Very long line of text that exceeds typical input limits and should be used for testing text field boundaries and string handling.
+12345
+-999
+Empty line test case below
