@@ -1,0 +1,16 @@
+2026-01-13 12:46:01-Arithmetic Logger-DEBUG-Addition of 10 and 20 is 30
+2026-01-13 12:57:06-Arithmetic Logger-DEBUG-Addition of 10 and 20 is 30
+2026-01-13 12:57:06-Arithmetic Logger-DEBUG-Subtraction of 10 from 20 is 10
+2026-01-13 12:57:06-Arithmetic Logger-DEBUG-Multiplication of 10 and 30 is 300
+2026-01-13 12:57:06-Arithmetic Logger-DEBUG-Dividing 200 by 40 = 5.0
+2026-01-13 12:57:06-Arithmetic Logger-ERROR-Zero Divison Error Occured while performing Divison
+2026-01-13 13:00:10-Arithmetic Logger-DEBUG-Addition of 10 and 20 is 30
+2026-01-13 13:00:10-Arithmetic Logger-DEBUG-Subtraction of 10 from 20 is 10
+2026-01-13 13:00:10-Arithmetic Logger-DEBUG-Multiplication of 10 and 30 is 300
+2026-01-13 13:00:10-Arithmetic Logger-DEBUG-Dividing 200 by 40 = 5.0
+2026-01-13 13:00:10-Arithmetic Logger-ERROR-Zero Divison Error Occured while performing Divison
+2026-01-13 13:00:24-Arithmetic Logger-DEBUG-Addition of 10 and 20 is 30
+2026-01-13 13:00:24-Arithmetic Logger-DEBUG-Subtraction of 10 from 20 is 10
+2026-01-13 13:00:24-Arithmetic Logger-DEBUG-Multiplication of 10 and 30 is 300
+2026-01-13 13:00:24-Arithmetic Logger-DEBUG-Dividing 100 by 40 = 2.5
+2026-01-13 13:00:24-Arithmetic Logger-ERROR-Zero Divison Error Occured while performing Divison
