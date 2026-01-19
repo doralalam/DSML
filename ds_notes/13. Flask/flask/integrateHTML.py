@@ -1,3 +1,8 @@
+'''
+Docstring for ds_notes.13. Flask.flask.integrateHTML
+
+This code explains how to integrate HTML files using the Flask framework
+'''
 from flask import Flask, render_template
 
 app = Flask(__name__)

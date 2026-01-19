@@ -1,3 +1,7 @@
+'''
+This code will explain how the Flask framework works using Python programming
+'''
+
 from flask import Flask
 
 ## WSGI Application
