@@ -1,3 +1,10 @@
+'''
+Docstring for ds_notes.13. Flask.flask.getPost
+
+This code will explain how the GET and POST methods work and
+uses home.html, index.html, form.html files from the templates folder
+'''
+
 ## To import Flask framework
 from flask import Flask
 ## To redirect to HTML page
