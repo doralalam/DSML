@@ -1,4 +1,4 @@
-<!---HTML File for Form Tab-->
+<!--HTML File for Form Tab-->
 
 <!DOCTYPE html>
 <html lang="eng">
@@ -8,7 +8,9 @@
     </head>
     <body>
         <h1>Submit a Form</h1>
-        <form method="POST">
+        <!--action parameter is used to redirect to a specific path after hitting the POST in form method indicated in the Python code using Flask framework-->
+        <!--Example has been demonstrated using the fourthapp.py file-->
+        <form action="/submit" method="POST">
             <label for name="name">Name:</label>
             <input type="text" id="name" name="name">
             <!--To add a clickable button-->

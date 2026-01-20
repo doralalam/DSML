@@ -22,16 +22,34 @@ def home():
 def index():
     return render_template('index.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+'''
+    Here, we used both GET and POST methods
+    GET is used for simple retreival
+    POST sends the data to server and then retrieves the information
+'''
+    
 @app.route('/form', methods=['GET', 'POST'])
-## Here, we used both GET and POST methods
-## GET is used for simple retreival
-## POST sends the data to server and then retrieves the information
 def form():
     if request.method == 'POST':
         ## To get the name value from the form
         name=request.form['name']
         ## To display a message with name from the form
         return f"Hello {name}"
+    return render_template('form.html')
+'''
+if we stop at the above code, after submitting the form, it will return Hello {name} but it is still in form page only
+to redirect the output from form page to submit page
+'''
+
+@app.route('/submit', methods=['GET', 'POST'])
+def submit():
+    if request.method == 'POST':
+        name=request.form['name']
+        return f'Hello {name}!'
     return render_template('form.html')
 
 
