@@ -1,6 +1,4 @@
 '''
-Docstring for ds_notes.13. Flask.flask.main
-
 This code explains how to return HTML tags using Flask Framework instead of simple string messages
 '''
 

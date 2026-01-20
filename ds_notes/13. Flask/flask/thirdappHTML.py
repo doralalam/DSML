@@ -1,7 +1,5 @@
 '''
-Docstring for ds_notes.13. Flask.flask.integrateHTML
-
-This code explains how to integrate HTML files using the Flask framework
+This code explains how to redirect to the external HTML files using Flask Framework and render_template
 '''
 from flask import Flask, render_template
 
