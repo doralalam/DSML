@@ -1,7 +1,14 @@
 <!--This page demonstrates the work of IF condition in HTML page using Jinja2-->
 
-{% if result >=50 %}
-<h1>You have PASSED with {{result}} marks</h1>
-{% else %}
-<h1>You have FAILED with {{result}} marks</h1>
-{% endif %}
+<html>
+    <head>
+        <title>Result</title>
+    </head>
+    <body>
+    {% if result >=50 %}
+    <h1>You have PASSED with {{result}} marks</h1>
+    {% else %}
+    <h1>You have FAILED with {{result}} marks</h1>
+    {% endif %}
+    </body>
+</html>

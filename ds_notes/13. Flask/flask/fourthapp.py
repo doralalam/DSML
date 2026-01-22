@@ -39,19 +39,17 @@ def form():
         name=request.form['name']
         ## To display a message with name from the form
         return f"Hello {name}"
-    return render_template('form.html')
+    return render_template('nameform.html')
 '''
 if we stop at the above code, after submitting the form, it will return Hello {name} but it is still in form page only
 to redirect the output from form page to submit page
 '''
-
 @app.route('/submit', methods=['GET', 'POST'])
 def submit():
     if request.method == 'POST':
         name=request.form['name']
         return f'Hello {name}!'
     return render_template('form.html')
-
 
 if __name__=='__main__':
     ## To run the flask object
