@@ -1,5 +1,5 @@
 '''
-This code demonstrates the practical use Variable Rule
+This code demonstrates the practical use of Variable Rule
 '''
 
 from flask import Flask, render_template, request
