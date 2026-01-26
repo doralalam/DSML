@@ -1,3 +1,7 @@
+'''
+This is the basic code that demonstrates the basic skeleton for a streamlit web application to write the data and create some kind of charts
+'''
+
 import streamlit as st
 import numpy as np
 import pandas as pd
